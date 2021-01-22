@@ -35,6 +35,37 @@ summary{display:list-item}
 /*=============
 Custom
 ==============*/
+html {
+	box-sizing: border-box;
+	font-size: 18px;
+	height: 100%;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	overflow-x: hidden;
+	background: white;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	height: 100%;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #444;
+	font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-size: 1rem;
+	line-height: 1.375em;
+}
 
 header{
     border-bottom: 1px solid #ccc;
@@ -46,18 +77,26 @@ header h1{
 }
 
 header ul{
-    margin: 1.5em auto;
     list-style: none;
+    margin: 1.5em auto;
+    padding: 0;
     text-align: center;
 }
 
 header ul li{
     margin: 0 0 0.5em;
+    padding: 0;
 }
 
 img{
     width: 100%;
     height: auto;
+}
+
+.description{
+    margin: 1.5em auto;
+    max-width: 550px;
+    width: 100%;
 }
 
 .desktop{
