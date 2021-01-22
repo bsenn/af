@@ -69,7 +69,8 @@ textarea {
 
 header{
     border-bottom: 1px solid #ccc;
-    margin-bottom: 3em;
+    margin: 0.5em auto 3em;
+    max-width: 92%;
 }
 
 header h1{
