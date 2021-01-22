@@ -32,6 +32,15 @@ details{display:block}
 summary{display:list-item}
 [hidden],template{display:none}
 
+/*=============
+Custom
+==============*/
+
+header{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3em;
+}
+
 header h1{
     text-align: center;
 }
